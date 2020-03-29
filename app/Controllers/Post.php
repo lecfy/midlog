@@ -9,6 +9,7 @@ class Post extends Controller
         }
 
         return $this->view('post_index', [
+            'title' => $post['title'],
             'post' => $post
         ]);
     }
