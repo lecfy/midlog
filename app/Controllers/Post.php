@@ -8,6 +8,8 @@ class Post extends BaseController
             redirect();
         }
 
-        return view('post_index');
+        return view('post_index', [
+            'post' => $post
+        ]);
     }
 }

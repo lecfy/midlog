@@ -1,1 +1,1 @@
-hey.
+<?=$post['title']?>
