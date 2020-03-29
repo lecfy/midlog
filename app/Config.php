@@ -2,7 +2,7 @@
 /*
  * IMPORTANT! Update your path to the system folder
  */
-define('SYSTEM_PATH', __DIR__ . '/../system/');
+define('SYSTEM_PATH', __DIR__ . '/../vendor/midmyk/midwork/system');
 define('APP_PATH', __DIR__ . '/');
 define('STORAGE_PATH', __DIR__ . '/../storage/');
 
