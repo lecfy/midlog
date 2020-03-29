@@ -1,6 +1,6 @@
 <?php
 
-class Post extends BaseController
+class Post extends Controller
 {
     public function index($post_id)
     {
@@ -8,7 +8,7 @@ class Post extends BaseController
             redirect();
         }
 
-        return view('post_index', [
+        return $this->view('post_index', [
             'post' => $post
         ]);
     }
