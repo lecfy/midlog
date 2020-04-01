@@ -1,5 +1,6 @@
 {
     "require": {
-        "midmyk/midwork": "dev-master"
+        "midmyk/midwork": "dev-master",
+      "ext-pdo": "*"
     }
 }

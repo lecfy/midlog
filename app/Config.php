@@ -35,3 +35,4 @@ $config['title'] = '';
  */
 
 $route['default'] = 'home/index';
+$route['register'] = 'home/register';
